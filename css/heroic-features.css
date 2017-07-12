@@ -1,0 +1,358 @@
+/*!
+ * Start Bootstrap - Heroic Features (http://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+.custom-header {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.custom-header-row {
+    padding-top: 20px;
+}
+
+.top-row {
+    padding-top: 30px;
+}
+
+.custom-col-top-card {
+    vertical-align: middle;
+}
+
+.custom-top-card-img {
+    padding-bottom: 3px;
+}
+
+.card-h4 {
+    margin-bottom: 0px;
+    padding-top: 3px;
+}
+
+.welcome-message {
+    font-size: 20px;
+    line-height: 1.5
+}
+
+.card-bottom {
+    margin-bottom: 25px
+}
+
+.welcome-message-footer {
+    font-size: 20px;
+    line-height: 1.5;
+    color: grey;
+}
+
+.custom-breadcrumb {
+    background-color: #f9f9f9;
+}
+
+.profile-img {
+    max-width: 200px;
+    height: auto;
+    padding-top: 20px;
+}
+
+.custom-video-row {
+    margin: 0px 0px 15px 0px;
+}
+.custom-footer {
+    margin-top: 1rem;
+    padding-top: 2rem;
+
+}
+
+.custom-col-top {
+    background-color: #f9f9f9;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.custom-col-bottom {
+    background-color: #f9f9f9;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.fa-star, .fa-star-o, .fa-star-half-o {
+    color: #F6D023;
+}
+
+#grey-star {
+    color: lightgrey;
+}
+
+/* ----------- Review ---------- */
+
+.img-review {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+.col-review  {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.btn-review  {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn-video-review {
+    padding-left: 0px;
+}
+
+.row-review {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media (min-width: 992px) {
+    .img-review {
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .col-review  {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .row-review {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .btn-video-review {
+        padding-left: 30px;
+    }
+    
+}
+
+/* ----------- /. Review ---------- */
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+    .card {
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+    }
+    
+    .custom-top-card {
+    padding-top: 0rem;
+    }
+    
+    .card-block {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    
+    .custom-top-card-block {
+        padding-top: 10px;
+    }
+    
+    .custom-col-top {
+    background-color: transparent;
+    }
+
+    .custom-col-bottom {
+        background-color: transparent;
+        padding-right: 1.75rem;
+    }
+    .custom-col-align-left {
+        text-align: left;
+    }
+    .custom-video-row {
+    margin: 0px 0px 5px 0px;
+    }
+    .col-last-right {
+        padding-right: 1.5rem;
+    }
+    .col-review  {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/*
+.card:focus, .card:hover {
+    background-color: #f9f9f9;
+    border: 1px solid #f9f9f9;
+}
+*/
+
+.inactive-link {
+    color: lightgrey;
+}
+
+.inactive-link:hover {
+    color: lightgrey;
+}
+
+.referral-disclaimer {
+    color: grey;
+}
+
+.btn-inactive {
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+}
+
+.btn-inactive:hover {
+    background-color: darkgrey;
+    border: 1px solid darkgrey;
+}
+
+.custom-btn-other-apps {
+    background-color: #0075DF;
+    border: 1px solid white;
+    color: white;
+}
+
+.custom-btn-other-apps:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: #0075DF;
+}
+
+.signature {
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ----------- Newsletter ---------- */
+
+.email-form {
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+
+.btn-newsletter {
+    margin-top: 20px;
+    border: 1px solid white;
+    color: white;
+}
+
+.img-portfolio {
+    margin-bottom: 10px;
+}
+
+.col-portfolio {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media (min-width: 992px) {
+    .col-portfolio {
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+}
+
+.col-appstore-right {
+    padding-left: 5px;
+}
+
+.col-appstore-left {
+    padding-right: 5px;
+}
+
+.row-portfolio {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media (min-width: 992px) {
+    .row-portfolio {
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+}
+
+.price-container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.last-card {
+    margin-bottom: 25px
+}
+
+.hr-custom {
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #0275d8;
+    margin-left: 0px;
+}
+
+.p-underlined {
+    border-bottom: 3px solid #0275d8;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    display: block;
+    max-width: 50px;
+}
+
+.btn-outline-orange {
+    border: 1px solid #FF5E00;
+}
+
+.btn-img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.col-hire-me {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media (min-width: 992px) {
+    .col-hire-me {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+/* making video responsive */
+
+.fluidMedia {
+    position: relative;
+    padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.fluidMedia iframe {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
